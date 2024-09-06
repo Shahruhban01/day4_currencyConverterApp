@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #3a9e25, #82db0e);
+    /* background: linear-gradient(to right, #4e54c8, #8f94fb); */
+    color: white;
+}
+h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.converter-container {
+    background-color: white;
+    color: #333;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.form-select, .form-control {
+    box-shadow: none;
+    border-radius: 5px;
+}
+.form-control:focus, .form-select:focus {
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+    border-color: #007bff;
+}
+.btn-primary {
+    background-color: #4e54c8;
+    border-color: #4e54c8;
+}
+.btn-primary:hover {
+    background-color: #3e44b8;
+    border-color: #3e44b8;
+}
+#result {
+    font-size: 18px;
+    margin-top: 15px;
+}
+.currency-icon {
+    margin-right: 10px; /* 😂 */
+}
